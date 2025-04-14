@@ -1,3 +1,7 @@
-#include <iostream>
+#include "clases.hpp"
 
-int main() { std::cout << "Hello World!\n"; }
+int main() {
+    Menu menu;
+    menu.ejecutar();
+    return 0;
+}
